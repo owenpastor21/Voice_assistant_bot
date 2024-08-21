@@ -68,4 +68,4 @@ if st.session_state.messages[-1]["role"] == "user":
         st.session_state.messages.append({"role": "assistant", "content": response})
         os.remove(response_audio)
     
-footer.float("bottom: -0.25rem; left: 50%")
+footer.float("bottom: -0.25rem;")
